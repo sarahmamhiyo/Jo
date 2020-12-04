@@ -1,0 +1,26 @@
+.reports-container{
+    height:500px;
+    width:98%;
+    margin-left:1%;
+
+}
+.reports-box{    
+    background-color: white;
+}
+.reports-header-list{
+    background-color: #7ca044;
+    padding:1px
+}
+
+.reports-data-list{
+    padding: 1px;
+}
+
+.reports-header-list li, .reports-data-list li{
+    width:13%;
+    padding: 30px 0px 0px 10px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;    
+
+}

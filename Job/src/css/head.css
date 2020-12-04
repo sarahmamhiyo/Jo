@@ -1,0 +1,74 @@
+@font-face {
+  font-family: numito-medium;
+  src: url("../fonts/Nunito-Medium.ttf");
+}
+
+@font-face {
+  font-family: numito-bold;
+  src: url("../fonts/Nunito-Bold.ttf");
+}
+
+.header-container{
+    height:70px;
+    background-color:#c8d7b3;
+    background-color:#f1f3ee ;
+    padding:1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.header-list{
+    margin-left: 70%;
+    width:30%;
+    border:none;
+    list-style: none;
+    display:flex;
+    padding:1px
+}
+
+.header-item{
+    padding:1px; 
+    width:20%;
+    text-align:center;
+}
+
+.header-item-email{
+    width:60%;
+    text-align:center;
+    padding-top:20px;
+    font-family:numito-medium
+    /* font-family:Arial, Helvetica, sans-serif */
+}
+
+.header-item div{
+    height:40px;
+    width: 40px;
+    border-radius: 40px;
+    color:white;
+    text-align: center;
+    background-color:#FFDF6C;
+    background-color:#7555;
+    padding:1px;
+
+}
+
+.header-item div p{
+    text-align:center;
+    padding:1px;
+    margin-top:5px;
+    font-size:18px;
+}
+
+.header-item div p b{
+    font-family: numito-bold;
+    color:black;
+}
+
+.header-item div span{
+    margin-top: 20px
+}
+
+.header-item i{
+    font-size: 30px;
+    color:red;
+    padding-top: 10px;
+}

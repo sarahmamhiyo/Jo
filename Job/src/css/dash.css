@@ -1,0 +1,12 @@
+.Dashboard{
+    margin:0px;
+}
+
+.job-task-wrapper, .technicians-wrapper, .reports-wrapper{
+    display:flex;
+    width: 93%;
+    background:red;
+    margin:15px 15px 15px 100px;
+    background: #eeeeee;
+
+}

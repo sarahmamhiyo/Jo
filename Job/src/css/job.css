@@ -1,0 +1,247 @@
+@font-face {
+  font-family: numito-bold;
+  src: url("../fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+  font-family: numito-light;
+  src: url("../fonts/Nunito-Light.ttf");
+}
+
+.job-wrapper{
+    width:98%;
+    background:#eeeeee;
+    margin:20px;
+    overflow: auto;
+
+}
+
+.job-box{
+    padding:1px
+  
+}
+
+.job-stats{
+    display:flex;  
+    gap:130px;
+    margin-top:10px ;
+}
+
+.job-stats div{
+    padding:1px;
+    height:80px;
+    width:180px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.job-header-list, .job-data-list, .task-header-list, .task-data-list, 
+.technicians-header-list,.job-heading, .technicians-data-list,.reports-header-list, .reports-data-list{
+    list-style: none;
+    display:flex;
+    height:70px;
+    border-bottom:1px solid #eeeeee;
+
+ 
+}
+
+
+.job-stats-list{
+    list-style: none;
+    line-height: 1.8;
+
+}
+
+.job-stats-numbers{
+    font-size:20px;
+    font-family: numito-bold;
+    color:#659b33;
+
+
+}
+
+.job-stats-description{
+    font-size: 15px;
+    font-family: numito-light;
+}
+
+.job-details-wrapper{
+    margin-top:60px;
+    background-color: white;
+}
+
+
+
+
+.job-data-list{
+    padding: 1px;
+}
+.job-header-list{
+  padding: 1px;
+    color:#7ca044;
+    background-color: white;
+}
+.job-header-list li, .job-data-list li{
+    width:20%;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:10px;
+
+
+}
+.job-heading{
+
+    padding:1px; 
+    color:white;    
+    background-color:#7ca044 ;
+/* background-color:#7e906b; */
+color: #1b1b1b;
+    padding-left:10px;    
+    padding-top:2px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+.heading{
+    width:90%;
+    font-family:numito-bold
+}
+.add{
+margin-top: 10px;
+color:#1b1b1b;
+text-align:center;
+font-size: 50px;
+/* background-color: #1b1b1b; */
+height:50px;
+width:50px;
+border-radius: 2px;
+}
+.add:hover{
+background-color: #1b1b1b;
+color: #7e906b;
+}
+
+
+.jobadd-heading{
+    color:#659b33;
+color: #7e906b;
+
+}
+
+.job-add-container{
+width:98%;
+
+}
+
+.job-add-form{
+width: 60%;
+display:flex;
+background-color: white;
+margin-left:20%;
+margin-bottom: 100px;
+}
+
+.job-add-form ul{
+list-style: none;
+width:50%;
+margin-top:30px;
+}
+.job-add-form ul label{
+font-size: 15px;
+color:#659b33;
+padding-top:60px;
+}
+
+.job-add-input, .add-job-btn{
+border:1px solid #eeeeee;
+border-radius: 5px;
+height:50px;
+width:90%;
+background-color: #eeeeee;
+margin-bottom:30px;
+}
+.add-job-btn{
+background-color: #7e906b;
+color:#1b1b1b;
+width:93%;
+margin-top:30px;
+}
+
+.job-add-list{
+list-style: none;
+display:flex;
+width:60%;
+margin-left: 20%;
+padding:1px
+}
+
+.job-heading-item{
+    width:95%
+}
+.back-icon{
+margin-top:20px;
+font-size: 20px;
+background-color:#7e906b;
+color:white;
+height:40px;
+width:50px;
+border-radius:40px;
+text-align:center;
+padding-top: 5px;
+float:right;
+}
+
+
+/* .back-icon i{
+
+} */
+
+.edit-delete-view i{
+padding-right:40px;
+}
+
+
+.delete-message{
+position: absolute;
+margin-top: -20px;
+background-color: #eeeeee;
+border-radius: 3px;
+height:30px;
+padding:10px 10px 5px;
+text-align: center;
+display:none;
+}
+.delete-message span{
+    background-color: red;
+    color:white;
+    /* height:20px;
+    width:0px; */
+padding:5px 10px;
+border-radius: 3px;
+margin-left:5px;
+
+}
+
+/* .Edit{
+
+
+} */
+
+.edit-job-box{
+display: none;
+position:absolute;
+width:94%;
+left: 6%;
+background-color:rgb(126, 115, 115);
+top:80px;
+/* border-radius: 26%; */
+}
+
+.jobeditcontainer{
+padding-top: 100px;
+}
+
+.cancel{
+float:right;
+margin: 50px 100px;
+}

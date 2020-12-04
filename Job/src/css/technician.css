@@ -1,0 +1,50 @@
+.technicians-container{
+    height:500px;
+    width:98%;
+    margin-left:1%;
+    background-color: #eeeeee;
+}
+
+.employees-heading{
+    color:#7e906b
+}
+
+.techn-box{
+    background-color:white;
+}
+
+.technicians-header-list{
+    background-color: #7e906b;
+}
+
+/* .technicians-data-list{
+    text-align: center;
+} */
+
+.technician-avatar{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+}
+.technmodify, .techni-company, .techni-contacts{
+    padding-top:20px;
+}
+
+.avatar-item{
+    width: 10%;
+}
+
+.role-item{
+ width:20%;
+}
+
+.techni-company{
+width:15%
+}
+
+.technmodify{
+    width:25%
+}
+.techni-contacts{
+    width:20%;
+}
